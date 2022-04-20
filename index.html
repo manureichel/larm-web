@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Larm Efectos</title>
   </head>
   <body>
@@ -11,23 +12,18 @@
       <!-- Contenedor Logo -->
       <div>
         <a href="#">
-          <img src="./imagenes/logoNombreLarm.png" alt="Logo de Larm Efectos" />
+          <img
+            class="logo-larm"
+            src="./imagenes/logoNombreLarm-blanco.png"
+            alt="Logo de Larm Efectos"
+          />
         </a>
       </div>
       <!-- Barra de Navegación -->
       <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="./secciones/contacto.html">Contacto</a>
-          </li>
+        <ul class="nav__links">
           <li>
             <a href="./secciones/productos.html">Productos</a>
-          </li>
-          <li>
-            <a href="./secciones/acerca.html">Acerca De</a>
           </li>
           <li>
             <a href="./secciones/distribuidores.html">Distribuidores</a>
@@ -35,45 +31,53 @@
           <li>
             <a href="./secciones/soporte.html">Soporte</a>
           </li>
+          <li>
+            <a href="./secciones/acerca.html">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="./secciones/contacto.html"><button class:="btn__contacto">Contacto</button></a>
+          </li>
         </ul>
       </nav>
-
-      <hr />
     </header>
     <!-- Sección donde se muestra un producto nuevo o destacado -->
 
-    <main>
-      <h1>Larm Efectos: Pedales</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis illo,
-        mollitia quibusdam esse vitae soluta doloribus reiciendis unde nostrum
-        ea dignissimos? Dignissimos perspiciatis sit magni beatae consequatur
-        animi, debitis ipsum.
-      </p>
-      <h2>¡Nuevo Pedal Larm R3verb!</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum est
-        mollitia accusamus nam quidem? Autem debitis explicabo, laborum sunt sed
-        praesentium dignissimos mollitia accusantium facere, id, sint natus
-        maxime.
-      </p>
+    <main class="main__section">
+      <article class="main__article">
+        <h1>Larm Efectos: Pedales</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis illo,
+          mollitia quibusdam esse vitae soluta doloribus reiciendis unde nostrum
+          ea dignissimos? Dignissimos perspiciatis sit magni beatae consequatur
+          animi, debitis ipsum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex totam quod veritatis cum provident quas? Aperiam natus error reiciendis accusantium rem cupiditate fugiat similique necessitatibus magnam. Expedita, modi molestiae!
+        </p>
+      </article>
+      
+      <article class="main__article">
+        <h2>¡Nuevo Pedal Larm R3verb!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum est
+          mollitia accusamus nam quidem? Autem debitis explicabo, laborum sunt sed
+          praesentium dignissimos mollitia accusantium facere, id, sint natus
+          maxime.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facere corrupti accusamus nam optio aliquam itaque eaque in. Natus animi voluptas harum odio sequi repellendus sint non nulla ipsum quae.
+        </p>
+      </article>
+      
 
-      <div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dSGXS57P08w"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div class="main__video">
+       
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dSGXS57P08w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+
     </main>
-    <hr />
+
+    
     <!-- Sección con características generales del emprendimiento -->
-    <section>
-      <div>
-        <h3>¡Somos Industria Nacional!</h3>
+    <section class="section__iconos">
+      <div class="iconos__caracteristicas">
+        <h3>Industria Nacional</h3>
         <figure>
           <img src="./imagenes/ind-nac.png" alt="Bandera Argentina" />
         </figure>
@@ -85,8 +89,8 @@
         </p>
       </div>
 
-      <div>
-        <h3>Componentes de Calidad</h3>
+      <div class="iconos__caracteristicas">
+        <h3>Calidad</h3>
         <figure>
           <img src="./imagenes/componentes.png" alt="Bandera Argentina" />
         </figure>
@@ -98,7 +102,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="iconos__caracteristicas">
         <h3>Garantía</h3>
         <figure>
           <img src="./imagenes/garantia.png" alt="Bandera Argentina" />
@@ -111,7 +115,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="iconos__caracteristicas">
         <h3>Firmware Custom</h3>
         <figure>
           <img src="./imagenes/firmware.png" alt="Bandera Argentina" />
@@ -127,26 +131,26 @@
 
     <!-- Footer -->
     <footer>
-      <hr />
       <p>&copy; Larm Efectos 2022 · Industria Argentina</p>
+      <div class="footer__logos-redes">
+        <figure>
+          <a href="https://www.facebook.com/larmefectos/">
+            <img src="./imagenes/fb-logo.png" alt="Logo Facebook" />
+          </a>
+        </figure>
 
-      <figure>
-        <a href="https://www.facebook.com/larmefectos/">
-          <img src="./imagenes/fb-logo.png" alt="Logo Facebook" />
-        </a>
-      </figure>
+        <figure>
+          <a href="https://www.instagram.com/larm_efectos/?hl=es">
+            <img src="./imagenes/ig-logo.png" alt="Logo Instagram" />
+          </a>
+        </figure>
 
-      <figure>
-        <a href="https://www.instagram.com/larm_efectos/?hl=es">
-          <img src="./imagenes/ig-logo.png" alt="Logo Instagram" />
-        </a>
-      </figure>
-
-      <figure>
-        <a href="https://www.youtube.com/user/manureichel">
-          <img src="./imagenes/yt-logo.png" alt="Logo Youtube" />
-        </a>
-      </figure>
+        <figure>
+          <a href="https://www.youtube.com/user/manureichel">
+            <img src="./imagenes/yt-logo.png" alt="Logo Youtube" />
+          </a>
+        </figure>
+      </div>
     </footer>
   </body>
 </html>
