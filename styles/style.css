@@ -67,6 +67,10 @@ header {
   padding: 0px 15px;
 }
 
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
 .nav__links li a:hover {
   color: #0088a9;
 }
@@ -77,6 +81,7 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
