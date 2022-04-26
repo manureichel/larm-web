@@ -66,11 +66,11 @@ button:hover {
 
 /* Sección Principal */
 
-.main__section {
+.main {
   color: #edf0f1;
-  justify-content: space-between;
-  align-items: center;
   padding: 15px 10%;
+  display: flex;
+  align-items: center;
 }
 
 .main__article {
@@ -79,22 +79,15 @@ button:hover {
   padding: 10px 5%;
 }
 
-.main__article h1 {
-  font-size: 35px;
-  padding: 10px;
-  margin: 5px;
-  line-height: 1.5;
-}
-
-.main__article h2,
-h3 {
+.main__article h1,
+h2 {
   font-size: 30px;
-  padding: 10px;
-  margin: 5px;
+  padding: 4px;
+  margin: 4px;
   line-height: 1.5;
 }
 
-.main__article p {
+/*.main__article p {
   font-size: 16px;
   padding: 10px;
   margin: 5px;
@@ -105,7 +98,7 @@ h3 {
   text-align: center;
   padding: 10px 10%;
   margin: 5px;
-}
+} */
 
 /* Estilos de la sección características */
 
