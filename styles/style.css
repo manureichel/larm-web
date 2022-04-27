@@ -10,8 +10,9 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #edf0f1;
-  background-image: url("https://fondosmil.com/fondo/20754.jpg");
-  backdrop-filter: blur(7px) brightness(30%);
+  background-image: url("../imagenes/main_wallpaper.jpg");
+  background-size: cover;
+  /* backdrop-filter: blur(7px) brightness(30%); */
   background-attachment: fixed;
 }
 
