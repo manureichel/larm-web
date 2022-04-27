@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css" />
     <title>Larm Efectos - Contacto</title>
   </head>
@@ -41,34 +42,32 @@
       </nav>
     </header>
 
-    <!-- formulario de contacto - br provisorios hasta aplicar CSS -->
-    <main>
-      <article>
+    <!-- formulario de contacto  -->
+    <main class="main__formulario">
+      <article class="form-contacto">
         <h1>Contacto</h1>
         <p>
           Podes enviarnos un mensaje con cualquier duda que tengas, también
           podes comunicarte a través de las redes sociales.
         </p>
         <form action="#">
-          <label for="nombre">Nombre</label><br />
-          <input type="text" name="nombre" id="nombre" required /><br />
-          <label for="apellido">Apellido</label><br />
-          <input type="text" name="apellido" id="apellido" required /><br />
-          <label for="email">Email</label><br />
-          <input type="email" name="email" id="email" required /><br />
-          <label for="tel">Teléfono</label><br />
-          <input type="text" name="tel" id="tel" required /><br />
-          <label for="mensaje">Mensaje</label><br />
+          <input class="form__campo" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required />
+          <input class="form__campo" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required />
+          <input class="form__campo" type="email" name="email" id="email" placeholder="Ingrese su E-Mail" required />
+          <input class="form__campo" type="text" name="tel" id="tel" placeholder="Ingrese su Teléfono" required />
           <textarea
+          class="form__campo"
             name="mensaje"
             id="mensaje"
             cols="30"
-            rows="10"
+            rows="5"
+            placeholder="Tu mensaje o comentario"
             required
-          ></textarea
-          ><br />
-          <input type="submit" value="Enviar" />
-          <input type="reset" value="Limpiar" />
+          ></textarea>
+          <div class="form__grupo-botones">
+          <input class="form__boton" type="submit" value="Enviar" />
+          <input class="form__boton" type="reset" value="Limpiar" />
+        </div>
         </form>
       </article>
     </main>
