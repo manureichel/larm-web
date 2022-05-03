@@ -33,23 +33,21 @@ header {
   padding: 20px 10%;
 }
 
-.logo-larm {
+.logo-larm-container img {
   cursor: pointer;
   width: 40%;
-  padding: 1px;
+  padding: 5px;
   transition: all 0.3s ease 0s;
 }
 
 .logo-larm:hover {
   cursor: pointer;
-  width: 40%;
-  padding: 1px;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(104, 104, 104, 0.884));
 }
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0px 1rem;
 }
 
 .nav__links li a {
@@ -71,6 +69,33 @@ button {
 
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
+}
+
+@media only screen and (max-width: 1450px) {
+  header {
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .logo-larm-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-larm-container img {
+    width: 35%;
+  }
+
+  .nav__links li {
+    padding: 0px 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .nav__links li {
+    padding: 0px 0.2rem;
+  }
 }
 
 /* Sección Principal */
@@ -115,10 +140,28 @@ h2 {
 
 .section__iconos {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 20px 0px;
   margin: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section__iconos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section__iconos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .iconos__caracteristicas {
@@ -360,7 +403,7 @@ p {
   grid-row: span 2;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
   .image-grid {
     --num-cols: 2;
     --row-height: 250px;
@@ -374,7 +417,7 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .image-grid {
     --num-cols: 1;
     --row-height: 220px;
