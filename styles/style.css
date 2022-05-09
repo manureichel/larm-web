@@ -474,6 +474,14 @@ p {
     justify-content: center;
   }
 
+  footer p {
+    text-align: center;
+  }
+
+  .footer__logos-redes {
+    width: 300px;
+  }
+
   .productos__articulo {
     width: 18rem;
     height: 30rem;
