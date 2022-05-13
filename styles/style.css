@@ -29,6 +29,7 @@ button {
 /* Estilos de Barra de Navegación y Header */
 
 header {
+  animation: transitionIn 0.75s;
   background-color: #24252b;
   display: flex;
   justify-content: space-between;
