@@ -32,35 +32,23 @@ button {
 header {
   animation: transitionIn 0.75s;
   background-color: #24252b;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   align-items: center;
   padding: 20px 10%;
 }
 
-.logo-larm-container img {
+.navbar-brand img {
   cursor: pointer;
   width: 40%;
   padding: 5px;
   transition: all 0.3s ease 0s;
 }
 
-.logo-larm:hover {
+.navbar-brand:hover {
   cursor: pointer;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(104, 104, 104, 0.884));
-}
-
-.nav__links li {
-  display: inline-block;
-  padding: 0px 1rem;
-}
-
-.nav__links li a {
   transition: all 0.3s ease 0s;
-}
-
-.nav__links li a:hover {
-  color: #0088a9;
 }
 
 button {
@@ -74,10 +62,6 @@ button {
 
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
-}
-
-.burger-menu {
-  display: none;
 }
 
 /* Sección Principal */

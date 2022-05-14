@@ -3,26 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/larm-favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/f78eebe9c2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="shortcut icon" href="./img/larm-favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/f78eebe9c2.js" crossorigin="anonymous"></script>    <title>Larm Efectos</title>
+    <title>Larm Efectos</title>
   </head>
   <body>
     <header>
       <!-- Contenedor Logo -->
-        <a class="logo-larm-container" href="#">
-          <img
-          class="logo-larm"
-            src="./img/logoNombreLarm-blanco.png"
-            alt="Logo de Larm Efectos"
-          />
-          
-        </a>
+      <a class="" href="#"> </a>
       <!-- Barra de Navegación -->
-      <nav>
+      <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                class="logo-larm"
+                src="./img/logoNombreLarm-blanco.png"
+                alt="Logo de Larm Efectos"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- <nav>
         <div class="burger-menu">
         <i class="burger-menu fa-solid fa-bars fa-2x"></i>
         </div>
@@ -43,97 +94,105 @@
             <a href="./pages/contacto.html"><button class:="btn__contacto">Contacto</button></a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <!-- Sección donde se muestra un producto nuevo o destacado -->
 
     <main class="main">
-      
       <article class="main__article">
         <h1>Pedales de Efecto</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis illo,
           mollitia quibusdam esse vitae soluta doloribus reiciendis unde nostrum
           ea dignissimos? Dignissimos perspiciatis sit magni beatae consequatur
-          animi, debitis ipsum.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex totam quod veritatis cum provident quas? Aperiam natus error reiciendis accusantium rem cupiditate fugiat similique necessitatibus magnam. Expedita, modi molestiae!
+          animi, debitis ipsum. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Incidunt ex totam quod veritatis cum provident quas?
+          Aperiam natus error reiciendis accusantium rem cupiditate fugiat
+          similique necessitatibus magnam. Expedita, modi molestiae!
         </p>
       </article>
-      
+
       <article class="main__article">
         <h2>¡Nuevo Larm R3verb!</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cum est
-          mollitia accusamus nam quidem? Autem debitis explicabo, laborum sunt sed
-          praesentium dignissimos mollitia accusantium facere, id, sint natus
-          maxime.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facere corrupti accusamus nam optio aliquam itaque eaque in. Natus animi voluptas harum odio sequi repellendus sint non nulla ipsum quae.
+          mollitia accusamus nam quidem? Autem debitis explicabo, laborum sunt
+          sed praesentium dignissimos mollitia accusantium facere, id, sint
+          natus maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni facere corrupti accusamus nam optio aliquam itaque eaque in.
+          Natus animi voluptas harum odio sequi repellendus sint non nulla ipsum
+          quae.
         </p>
       </article>
-      
 
       <div class="main__video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dSGXS57P08w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dSGXS57P08w"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
 
+      <!-- Sección con características generales del emprendimiento -->
+      <section class="section__iconos">
+        <div class="iconos__caracteristicas">
+          <h3>¡Somos Industria Nacional!</h3>
+          <figure>
+            <!-- <img src="./img/ind-nac.png" alt="Bandera Argentina" /> -->
+            <i class="fa-solid fa-building-flag fa-5x"></i>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
+            veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
+            minima doloremque, aut sit!
+          </p>
+        </div>
 
-    
-    <!-- Sección con características generales del emprendimiento -->
-    <section class="section__iconos">
-      <div class="iconos__caracteristicas">
-        <h3>¡Somos Industria Nacional!</h3>
-        <figure>
-          <!-- <img src="./img/ind-nac.png" alt="Bandera Argentina" /> -->
-          <i class="fa-solid fa-building-flag fa-5x"></i>
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
-          veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
-          minima doloremque, aut sit!
-        </p>
-      </div>
+        <div class="iconos__caracteristicas">
+          <h3>Componentes de Calidad</h3>
+          <figure>
+            <i class="fa-solid fa-bolt fa-5x"></i>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
+            veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
+            minima doloremque, aut sit!
+          </p>
+        </div>
 
-      <div class="iconos__caracteristicas">
-        <h3>Componentes de Calidad</h3>
-        <figure>
-          <i class="fa-solid fa-bolt fa-5x"></i>
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
-          veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
-          minima doloremque, aut sit!
-        </p>
-      </div>
+        <div class="iconos__caracteristicas">
+          <h3>Garantía</h3>
+          <figure>
+            <i class="fa-regular fa-square-check fa-5x"></i>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
+            veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
+            minima doloremque, aut sit!
+          </p>
+        </div>
 
-      <div class="iconos__caracteristicas">
-        <h3>Garantía</h3>
-        <figure>
-          <i class="fa-regular fa-square-check fa-5x"></i>
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
-          veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
-          minima doloremque, aut sit!
-        </p>
-      </div>
-
-      <div class="iconos__caracteristicas">
-        <h3>Firmware Custom</h3>
-        <figure>
-          <i class="fa-regular fa-floppy-disk fa-5x"></i>
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
-          veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
-          minima doloremque, aut sit!
-        </p>
-      </div>
-    </section>
-  </main>
+        <div class="iconos__caracteristicas">
+          <h3>Firmware Custom</h3>
+          <figure>
+            <i class="fa-regular fa-floppy-disk fa-5x"></i>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            voluptas quis a doloremque eveniet placeat sit tenetur? Minus,
+            veritatis perspiciatis autem quibusdam nam quod molestias laboriosam
+            minima doloremque, aut sit!
+          </p>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
