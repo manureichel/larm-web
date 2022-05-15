@@ -3,47 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/larm-favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/f78eebe9c2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="shortcut icon" href="../img/larm-favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/f78eebe9c2.js" crossorigin="anonymous"></script>
     <title>Larm Efectos - Productos</title>
   </head>
   <body>
     <header>
-      <!-- Contenedor Logo -->
-      <a class="logo-larm-container" href="../index.html">
-          <img
-          class="logo-larm"
-            src="../img/logoNombreLarm-blanco.png"
-            alt="Logo de Larm Efectos"
-          />
-          
-        </a>
-      <!-- Barra de Navegación -->
-      <nav>
-        <div class="burger-menu">
-          <i class="burger-menu fa-solid fa-bars fa-2x"></i>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark bg-opacity-10 navBar">
+          <div class="container">
+            <a class="navbar-brand" href="../index.html"
+              ><img
+                class="logo-larm"
+                src="../img/logoNombreLarm-blanco.png"
+                alt="Logo de Larm Efectos"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active ms-4" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-4" href="distribuidores.html">Distribuidores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-4" href="soporte.html">Soporte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ms-4" href="acerca.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-info ms-4" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
           </div>
-        <ul class="nav__links">
-          <li>
-            <a href="#">Productos</a>
-          </li>
-          <li>
-            <a href="distribuidores.html">Distribuidores</a>
-          </li>
-          <li>
-            <a href="soporte.html">Soporte</a>
-          </li>
-          <li>
-            <a href="acerca.html">Sobre Nosotros</a>
-          </li>
-          <li>
-            <a href="contacto.html"><button class:="btn__contacto">Contacto</button></a>
-          </li>
-        </ul>
-      </nav>
+        </nav>
     </header>
 
     <!-- Sección de Productos. Quizás se divida en tres html por producto -->
@@ -83,7 +106,7 @@
         <p>
           Overdrive de ganancia baja-media con controles de EQ activos en bajos
           y agudos. Permite un audio rítmico al borde de romper, o un sonido más
-          pesado articulado con armónicos y sustain.
+          pesado.
         </p>
         <figure>
           <img src="../img/morgan.png" alt="Pedal Morgan" />
@@ -117,5 +140,10 @@
         </figure>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
