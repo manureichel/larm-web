@@ -346,7 +346,7 @@ p {
 /* Galería de Fotos */
 
 .image-grid {
-  --gap: 2rem;
+  --gap: 1rem;
   --num-cols: 4;
   --row-height: 15rem;
 
@@ -393,7 +393,8 @@ p {
 @media screen and (max-width: 768px) {
   .image-grid {
     --num-cols: 1;
-    --row-height: 220px;
+    --row-height: 20rem;
+    padding: 3rem;
   }
 }
 
@@ -438,7 +439,7 @@ p {
   }
 
   .productos__articulo {
-    width: 18rem;
+    width: 22rem;
     height: 30rem;
   }
 
@@ -447,15 +448,15 @@ p {
   }
 
   .distribuidores__articulo {
-    width: 18rem;
+    width: 22rem;
   }
 
   .soporte__articulo {
-    width: 20rem;
-    height: 160rem;
+    width: 22rem;
+    height: 190rem;
   }
   .sobre__articulo {
-    width: 18rem;
+    width: 22rem;
   }
 
   .form-contacto {
