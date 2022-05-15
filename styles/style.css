@@ -38,6 +38,20 @@ header {
 .btn-info {
   color: black;
   border-radius: 40px;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.navbar-nav li {
+  display: inline-block;
+  padding: 0px 0.5rem;
+}
+
+.navbar-nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbar-nav li a:hover {
+  color: #0088a9 !important;
 }
 
 .navbar-brand img {
@@ -182,7 +196,7 @@ footer p {
 }
 
 .main__productos h1 {
-  font-size: 40px;
+  font-size: 2.25rem;
   line-height: 1.5;
 }
 
@@ -206,7 +220,7 @@ footer p {
 }
 
 .productos__articulo h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding: 10px 0px 10px 0px;
 }
