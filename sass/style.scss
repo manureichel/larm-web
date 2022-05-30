@@ -1,0 +1,36 @@
+@import '_variables.scss';
+@import '_navbar.scss';
+@import '_mainsec.scss';
+@import '_carac.scss';
+@import '_footer.scss';
+@import '_productos.scss';
+@import '_distrib.scss';
+@import '_sobre_contacto.scss';
+@import '_mediaquery.scss';
+@import '_galeria.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font: inherit;
+}
+  body {
+    background: black;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../img/main_wallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: $fontPrimary;
+    color: $color-principal;
+  }
+
+li,
+a,
+button {
+  font-size: 19px;
+  color: $color-principal;
+}

@@ -1,0 +1,22 @@
+/* Estilos de Footer */
+
+footer {
+    margin-top: auto;
+    color: $color-principal;
+    background-color: #24252a;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+  }
+  
+  footer p {
+    padding: 10px 2%;
+  }
+  
+  .footer__logos-redes {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

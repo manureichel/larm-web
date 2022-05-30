@@ -1,0 +1,35 @@
+/* Sección Principal */
+
+.main {
+    animation: transitionIn 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 5%;
+    margin: 1rem;
+  }
+  
+  .main__article {
+    color: $color-principal;
+    padding: 5px 2%;
+    width: 22.5rem;
+  }
+  
+  .main__article h1,
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .main__article p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+    line-height: 1.5;
+  }
+  
+  .main__video {
+    padding: 2px 5%;
+    margin: 2px;
+  }
