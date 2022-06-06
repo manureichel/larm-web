@@ -1,5 +1,13 @@
-$color-principal: #edf0f1;
+$color-principal: red;
 $color-secundario: lightgrey;
 $color-seleccion: #0088a9;
 $color-texto: #191919;
 $fontPrimary: 'Montserrat', sans-serif;
+
+$estilos: (
+    color-principal: #edf0f1,
+    color-secundario: lightgrey,
+    color-seleccion: #0088a9,
+    color-texto: #191919,
+    fontPrimary: 'Montserrat'
+);

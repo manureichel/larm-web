@@ -24,13 +24,13 @@
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    font-family: $fontPrimary;
-    color: $color-principal;
+    font-family: map-get($estilos,fontPrimary);
+    color: map-get($estilos,color-principal);
   }
 
 li,
 a,
 button {
   font-size: 19px;
-  color: $color-principal;
+  color: map-get($estilos,color-principal);
 }

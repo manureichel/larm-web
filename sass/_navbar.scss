@@ -20,7 +20,7 @@ header {
   }
   
   .navbar-nav li a:hover {
-    color: $color-seleccion !important;
+    color: map-get($estilos,color-seleccion) !important;
   }
   
   .navbar-brand img {
