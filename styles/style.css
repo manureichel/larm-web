@@ -82,7 +82,7 @@ h2 {
 }
 
 .main__video {
-  padding: 2px 5%;
+  padding: 2rem 5%;
   margin: 2px;
 }
 
@@ -366,7 +366,7 @@ p {
   border: 1px solid #0088a9;
 }
 
-.form__boton {
+.form__boton, .form__botonClean {
   color: #edf0f1;
   padding: 9px 25px;
   margin: 1.5rem;
@@ -378,7 +378,11 @@ p {
   transition: all 0.3s ease 0s;
 }
 
-.form__boton:hover {
+.form__botonClean {
+  background-color: rgba(179, 119, 29, 0.685);
+}
+
+.form__boton:hover, .form__botonClean:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
@@ -396,7 +400,7 @@ p {
   .form-contacto {
     width: 60%;
   }
-  .form__boton {
+  .form__boton, .form__botonClean {
     margin: 0.25rem;
   }
 }
@@ -444,7 +448,7 @@ p {
   .form-contacto {
     width: 80%;
   }
-  .form__boton {
+  .form__boton, .form__botonClean {
     margin: 0.05rem;
   }
 }
