@@ -10,22 +10,24 @@ header {
   background-color: rgba(0, 136, 169, 1);
 }
 
-.navbar-nav li {
-  display: inline-block;
-  padding: 0px 0.5rem;
-}
+#button-parent-container {
+  .navbar-nav li {
+    display: inline-block;
+    padding: 0px 0.5rem;
+  }
 
-.navbar-nav li a {
-  transition: all 0.3s ease 0s;
-}
+  .navbar-nav {
+    transition: all 0.3s ease 0s;
+  }
 
-.navbar-nav li a:hover {
-  color: map-get($estilos, color-seleccion) !important;
+  .nav-link:hover {
+    color: map-get($estilos, color-seleccion);
+  }
 }
 
 .navbar-brand img {
   cursor: pointer;
-  width: 40%;
+  width: 10rem;
   padding: 5px;
   transition: all 0.3s ease 0s;
 }

@@ -11,23 +11,23 @@ header {
   background-color: #0088a9;
 }
 
-.navbar-nav li {
+#button-parent-container .navbar-nav li {
   display: inline-block;
   padding: 0px 0.5rem;
 }
 
-.navbar-nav li a {
+#button-parent-container .navbar-nav {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.navbar-nav li a:hover {
-  color: #0088a9 !important;
+#button-parent-container .nav-link:hover {
+  color: #0088a9;
 }
 
 .navbar-brand img {
   cursor: pointer;
-  width: 40%;
+  width: 10rem;
   padding: 5px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
