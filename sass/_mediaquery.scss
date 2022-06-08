@@ -1,83 +1,81 @@
+@media only screen and (max-width: 1024px) {
+  .distribuidores__articulo,
+  .sobre__articulo,
+  .main__article,
+  .iconos__caracteristicas {
+    width: 30rem;
+  }
 
-  
-  @media only screen and (max-width: 1024px) {
-    .distribuidores__articulo,
-    .sobre__articulo,
-    .main__article,
-    .iconos__caracteristicas {
-      width: 30rem;
-    }
-  
-    .soporte__articulo {
-      width: 40rem;
-      height: 75rem;
-    }
-  
-    .form-contacto {
-      width: 60%;
-    }
-  
-    .form__boton {
-      margin: 0.25rem;
-    }
+  .soporte__articulo {
+    width: 40rem;
+    height: auto;
   }
-  
-  @media only screen and (max-width: 767px) {
-    footer {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    footer p {
-      text-align: center;
-    }
-  
-    .footer__logos-redes {
-      width: 300px;
-    }
-  
-    .productos__articulo {
-      width: 22rem;
-      height: 30rem;
-    }
-  
-    .productos__articulo img {
-      width: 50%;
-    }
-  
-    .distribuidores__articulo,
-    .main__article,
-    .iconos__caracteristicas {
-      width: 22rem;
-    }
-  
-    .soporte__articulo {
-      width: 22rem;
-      height: 190rem;
-    }
-    .sobre__articulo {
-      width: 22rem;
-    }
-  
-    .form-contacto {
-      width: 80%;
-    }
-  
-    .form__boton {
-      margin: 0.05rem;
-    }
+
+  .form-contacto {
+    width: 60%;
   }
-  
-  @keyframes transitionIn {
-    from {
-      opacity: 0;
-      transform: rotateX(-10deg);
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
+
+  .form__boton {
+    margin: 0.25rem;
   }
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  .footer__logos-redes {
+    width: 300px;
+  }
+
+  .productos__articulo {
+    width: 22rem;
+    height: auto;
+  }
+
+  .productos__articulo img {
+    width: 50%;
+  }
+
+  .distribuidores__articulo,
+  .main__article,
+  .iconos__caracteristicas {
+    width: 22rem;
+  }
+
+  .soporte__articulo {
+    width: 22rem;
+    height: auto;
+  }
+  .sobre__articulo {
+    width: 22rem;
+  }
+
+  .form-contacto {
+    width: 80%;
+  }
+
+  .form__boton {
+    margin: 0.05rem;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}

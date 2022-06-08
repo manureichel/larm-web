@@ -395,7 +395,7 @@ p {
   }
   .soporte__articulo {
     width: 40rem;
-    height: 75rem;
+    height: auto;
   }
   .form-contacto {
     width: 60%;
@@ -428,7 +428,7 @@ p {
   }
   .productos__articulo {
     width: 22rem;
-    height: 30rem;
+    height: auto;
   }
   .productos__articulo img {
     width: 50%;
@@ -440,7 +440,7 @@ p {
   }
   .soporte__articulo {
     width: 22rem;
-    height: 190rem;
+    height: auto;
   }
   .sobre__articulo {
     width: 22rem;
