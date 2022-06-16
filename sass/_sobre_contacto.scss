@@ -5,7 +5,8 @@
   background-color: rgba(122, 122, 121, 0.15);
   border-radius: 20px;
   width: 40rem;
-  @include padmargin(15px, 15px);
+  height: auto;
+  @include padmargin(2rem, 5rem);
 }
 
 /* Estilos para Contacto */

@@ -9,6 +9,28 @@
   @include padmargin(10px, 10px);
 }
 
+.img__acerca {
+  border-radius: 2rem;
+  height: 30rem;
+}
+
+.img__acerca__2 {
+  width: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 50% 0;
+  border-radius: 2rem;
+}
+
+.main__acerca {
+  @include padmargin(2rem, 2rem);
+  animation: transitionIn 1.5s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .main__productos h1 {
   font-size: 2.25rem;
   line-height: 1.5;

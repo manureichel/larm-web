@@ -199,6 +199,41 @@ footer p {
   margin: 10px;
 }
 
+.img__acerca {
+  border-radius: 2rem;
+  height: 30rem;
+}
+
+.img__acerca__2 {
+  width: 20rem;
+  height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 0;
+     object-position: 50% 0;
+  border-radius: 2rem;
+}
+
+.main__acerca {
+  padding: 2rem;
+  margin: 2rem;
+  -webkit-animation: transitionIn 1.5s;
+          animation: transitionIn 1.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .main__productos h1 {
   font-size: 2.25rem;
   line-height: 1.5;
@@ -288,8 +323,9 @@ p {
   background-color: rgba(122, 122, 121, 0.15);
   border-radius: 20px;
   width: 40rem;
-  padding: 15px;
-  margin: 15px;
+  height: auto;
+  padding: 2rem;
+  margin: 5rem;
 }
 
 /* Estilos para Contacto */
@@ -386,7 +422,7 @@ p {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1320px) {
   .distribuidores__articulo,
   .sobre__articulo,
   .main__article,
@@ -402,6 +438,12 @@ p {
   }
   .form__boton, .form__botonClean {
     margin: 0.25rem;
+  }
+  .main__acerca {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
